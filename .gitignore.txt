@@ -1,0 +1,3 @@
+node_modules
+Teste
+package.lock.json
