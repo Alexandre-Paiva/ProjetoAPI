@@ -3,7 +3,7 @@ import {servicoBuscarFatoPorAno, servicoValidaAno} from './servico.js';
 
 const app = express();
 
-app.get('/projeto01/', (req, res) =>  {
+app.get('/projeto1/', (req, res) =>  {
     let anoFato = req.query.ano;
 
     if(servicoValidaAno(anoFato))
