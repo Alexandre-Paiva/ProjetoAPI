@@ -12,8 +12,7 @@ function servicoValidaAno (ano) {
         {
             return true;
         }
-        else
-        {
+        else {
             return false;
         }
     }
